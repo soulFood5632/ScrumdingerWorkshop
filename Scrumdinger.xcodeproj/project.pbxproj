@@ -15,9 +15,13 @@
 		02CCDB68295D29D600A3424F /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB67295D29D600A3424F /* ScrumdingerUITests.swift */; };
 		02CCDB6A295D29D600A3424F /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB69295D29D600A3424F /* ScrumdingerUITestsLaunchTests.swift */; };
 		02CCDB78295D31A300A3424F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB77295D31A300A3424F /* Theme.swift */; };
-		02CCDB7A295D34F000A3424F /* DailyScurm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB79295D34F000A3424F /* DailyScurm.swift */; };
+		02CCDB7A295D34F000A3424F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB79295D34F000A3424F /* DailyScrum.swift */; };
 		02CCDB7C295D366E00A3424F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB7B295D366E00A3424F /* CardView.swift */; };
 		02CCDB7E295D43F000A3424F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB7D295D43F000A3424F /* TrailingIconLabelStyle.swift */; };
+		02CCDB80295D45BD00A3424F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB7F295D45BD00A3424F /* ScrumsView.swift */; };
+		02CCDB84295D4BD500A3424F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CCDB83295D4BD500A3424F /* Assets.xcassets */; };
+		02CCDB86295D4D2500A3424F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB85295D4D2500A3424F /* DetailView.swift */; };
+		02CCDB88295D561A00A3424F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCDB87295D561A00A3424F /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +54,13 @@
 		02CCDB67295D29D600A3424F /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		02CCDB69295D29D600A3424F /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		02CCDB77295D31A300A3424F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		02CCDB79295D34F000A3424F /* DailyScurm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScurm.swift; sourceTree = "<group>"; };
+		02CCDB79295D34F000A3424F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		02CCDB7B295D366E00A3424F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		02CCDB7D295D43F000A3424F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		02CCDB7F295D45BD00A3424F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		02CCDB83295D4BD500A3424F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../UsingStacksToArrangeViews-2/Complete/Scrumdinger/Assets.xcassets"; sourceTree = "<group>"; };
+		02CCDB85295D4D2500A3424F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		02CCDB87295D561A00A3424F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +114,12 @@
 				02CCDB4B295D29D400A3424F /* ScrumdingerApp.swift */,
 				02CCDB4D295D29D400A3424F /* MeetingView.swift */,
 				02CCDB7B295D366E00A3424F /* CardView.swift */,
+				02CCDB7F295D45BD00A3424F /* ScrumsView.swift */,
+				02CCDB85295D4D2500A3424F /* DetailView.swift */,
 				02CCDB7D295D43F000A3424F /* TrailingIconLabelStyle.swift */,
+				02CCDB87295D561A00A3424F /* DetailEditView.swift */,
 				02CCDB4F295D29D600A3424F /* Assets.xcassets */,
+				02CCDB83295D4BD500A3424F /* Assets.xcassets */,
 				02CCDB76295D318A00A3424F /* Models */,
 				02CCDB54295D29D600A3424F /* Scrumdinger.entitlements */,
 				02CCDB51295D29D600A3424F /* Preview Content */,
@@ -143,7 +155,7 @@
 		02CCDB76295D318A00A3424F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				02CCDB79295D34F000A3424F /* DailyScurm.swift */,
+				02CCDB79295D34F000A3424F /* DailyScrum.swift */,
 				02CCDB77295D31A300A3424F /* Theme.swift */,
 			);
 			path = Models;
@@ -254,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02CCDB53295D29D600A3424F /* Preview Assets.xcassets in Resources */,
+				02CCDB84295D4BD500A3424F /* Assets.xcassets in Resources */,
 				02CCDB50295D29D600A3424F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02CCDB7A295D34F000A3424F /* DailyScurm.swift in Sources */,
+				02CCDB7A295D34F000A3424F /* DailyScrum.swift in Sources */,
+				02CCDB86295D4D2500A3424F /* DetailView.swift in Sources */,
+				02CCDB80295D45BD00A3424F /* ScrumsView.swift in Sources */,
 				02CCDB7E295D43F000A3424F /* TrailingIconLabelStyle.swift in Sources */,
 				02CCDB78295D31A300A3424F /* Theme.swift in Sources */,
+				02CCDB88295D561A00A3424F /* DetailEditView.swift in Sources */,
 				02CCDB4E295D29D400A3424F /* MeetingView.swift in Sources */,
 				02CCDB4C295D29D400A3424F /* ScrumdingerApp.swift in Sources */,
 				02CCDB7C295D366E00A3424F /* CardView.swift in Sources */,
@@ -447,6 +463,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -454,8 +471,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sample.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,6 +493,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -479,8 +501,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sample.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

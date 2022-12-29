@@ -37,4 +37,8 @@ enum Theme: String {
     var mainColor: Color {
         Color(rawValue)
     }
+    
+    var capitalTheme: String {
+        rawValue.uppercased()
+    }
 }
